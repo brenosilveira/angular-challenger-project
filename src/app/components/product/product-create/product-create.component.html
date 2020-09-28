@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title>Nova Notícia</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Título" (ngModel)="product.title" name="title">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Escreva aqui sua matéria" (ngModel)="product.body" name="body">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createProduct()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+    
+</mat-card>
+
+

@@ -1,0 +1,23 @@
+.card-notice img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.title-notice, .subtitle-notice {
+  padding-left: 28rem;
+  padding-top: 2.2rem;
+}
+
+.subtitle-notice {
+  width: 40%;
+}
+
+.content-notice p {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+
+

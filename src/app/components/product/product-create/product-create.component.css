@@ -1,0 +1,12 @@
+mat-card {
+    width: 65rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 15px 15px 0 0;
+}

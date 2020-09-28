@@ -1,0 +1,64 @@
+
+.sidenav {
+    width: 13rem;
+    position: fixed;
+    right: 1rem;
+    padding-top: 10rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.snd {
+    margin-top: 2rem;
+}
+
+.sidenav a {
+    color: rgb(158, 156, 156);
+}
+
+.content {
+    padding: 16px;
+    background: #fff;
+}
+
+.blocoIcones {
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 156, 156);
+    display: flex;
+    box-sizing: border-box;
+}
+
+#search {
+    height: 2rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#search:active {
+    border: none;
+}
+
+.btn-search{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-search i {
+    color: rgb(158, 156, 156);
+}
+
+
+.footer {
+    width: 12   rem;
+    font-size: 0.7rem;
+    background: white;
+}

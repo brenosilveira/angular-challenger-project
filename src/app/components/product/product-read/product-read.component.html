@@ -1,0 +1,36 @@
+<div class="home">
+  <mat-card-title class="title">
+    Exibindo resultado de busca por "Angular 8"
+  </mat-card-title>
+  <mat-card-subtitle class="subtitle">
+    Encontramos um total de 100 resultados para sua busca
+  </mat-card-subtitle>
+</div>
+
+<div fxLayout="row wrap" fxLayoutAlign="start center" style="padding: 2%;">
+  <ng-container *ngFor="let product of products" style="margin: 0,5%">
+
+    <mat-card class="card-notice mat-elevation-z2" fxFlex="1 1 calc(45% - 11px)" fxFlex.lt-sm="100%">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+
+      </mat-card-header>
+      <img mat-card-image src="../../../../assets/img/Angular_full_color_logo.svg.png" alt="Imagem do Angular">
+      <mat-card-content>
+        <mat-card-title class="title-notice">
+          <div class="row">
+            <p>
+              <span>{{ product.title }}</span>
+            </p>
+          </div>
+        </mat-card-title>
+        <mat-card-subtitle class="subtitle-notice">
+          <p>{{ product.body }}</p>
+          <a href="/details">Ler mais</a>
+        </mat-card-subtitle>
+      </mat-card-content>
+    </mat-card>
+
+  </ng-container>
+
+</div>

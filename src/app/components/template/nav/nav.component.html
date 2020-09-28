@@ -1,0 +1,37 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" position="end" opened fixedInViewport="true">
+        <mat-nav-list class="nav-list">
+
+            <h3>Categorias</h3>
+
+            <a mat-list-item routerLink="/details">
+                Loren ipsum dolar
+            </a>
+            <a mat-list-item routerLink="/details">
+                Loren ipsum dolar
+            </a>
+            <a mat-list-item routerLink="/details">
+                Loren ipsum dolar
+            </a>
+            <a mat-list-item routerLink="/details">
+                Loren ipsum dolar
+            </a>
+
+            <h3 class="snd">Procutando alguma notícia?</h3>
+            <div class="blocoIcones">
+                <input type="text" name="search" id="search" placeholder="Pesquisar por...">
+                <button type="submit" class="btn-search"><i class="material-icons">search</i></button>
+            </div>
+
+            <mat-toolbar class="footer">
+                <span>
+                    Desenvolvido por <strong>Breno</strong>
+                </span>
+            </mat-toolbar>  
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
